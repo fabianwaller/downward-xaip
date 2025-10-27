@@ -1,0 +1,1 @@
+./fast-downward.py --alias lama-first domain.pddl problem.pddl

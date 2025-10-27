@@ -1,0 +1,1 @@
+./fast-downward.py domain.pddl problem.pddl --heuristic 'ngsh=ngs(cegar(subtasks=[goals()]))' --search 'gsastar(evals=[blind], eval=ngsh, bound=10)'
